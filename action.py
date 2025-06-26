@@ -11,7 +11,7 @@ def action(data):
     response = requests.post(
     url="https://openrouter.ai/api/v1/chat/completions",
     headers={
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer AI_API_KEY",
         "Content-Type": "application/json",
         "HTTP-Referer": "<YOUR_SITE_URL>", # Optional. Site URL for rankings on openrouter.ai.
         "X-Title": "<YOUR_SITE_NAME>", # Optional. Site title for rankings on openrouter.ai.
